@@ -62,7 +62,7 @@ where \*version-number\* is current version number, for example, 0.2.1.
 
 Apache License 2.0
 
-Copyright (c) 2011-2014, Lin Jen-Shin (godfat)
+Copyright (c) 2014, Chi Yun-Yan (jaiyalas)
 
 Licensed under the Apache License, Version 2.0 (the "License");
 you may not use this file except in compliance with the License.
