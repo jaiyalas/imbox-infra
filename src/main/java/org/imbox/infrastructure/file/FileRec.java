@@ -1,7 +1,7 @@
 package org.imbox.infrastructure.file;
 
 // BlockRec is a block withour content
-public class FileRec{
+public class FileRec implements java.io.Serializable{
     private String name;
     private String md5;
 

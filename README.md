@@ -1,15 +1,15 @@
 # imbox-infra
 
-## Requirement
+## DESCRIPTION:
 
-**Building**
+The *imbox-infra* is a part of *Imbox* which is a file hosting service and consists of [imbox-client](https://github.com/jaiyalas/imbox-client) and [imbox-server](https://github.com/teddywinglee/imbox-server).
 
-  * JDK 1.8+
-  * [Maven](https://maven.apache.org/) 
+## REQUIREMENTS:
 
-## Usage
+* Java 8 (tested with Oracle Java 1.8.0_20-ea) 
+* Maven 3 (tested with Apache Maven 3.2.1)
 
-**Building with Maven**
+## INSTALLATION:
 
     > mvn clean
     > mvn compile
@@ -19,7 +19,7 @@ or, just in single line
 
     > mvn clean compile package
 
-## How to integrate with your POM file
+### Integrate with your POM file
 
 **Deploy jar as a sub-repository**
 
@@ -52,7 +52,26 @@ Open your pom.xml file and add the following code:
         <dependency>
             <groupId>org.imbox</groupId>
             <artifactId>imbox-infra</artifactId>
-            <version>0.2.1</version>
+            <version>*version-number*</version>
         </dependency>
     </dependencies>
-    
+
+where \*version-number\* is current version number, for example, 0.2.1.
+
+## LICENSE:
+
+Apache License 2.0
+
+Copyright (c) 2011-2014, Lin Jen-Shin (godfat)
+
+Licensed under the Apache License, Version 2.0 (the "License");
+you may not use this file except in compliance with the License.
+You may obtain a copy of the License at
+
+<http://www.apache.org/licenses/LICENSE-2.0>
+
+Unless required by applicable law or agreed to in writing, software
+distributed under the License is distributed on an "AS IS" BASIS,
+WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+See the License for the specific language governing permissions and
+limitations under the License.    
